@@ -24,7 +24,3 @@ Then we move on to the posts themselves. We split each string into different chu
 ## Modeling 
 
 Using CountVectorizer and TfidfVectorizer separately pushed the X_train through various models. These models included logistic regression, Naive bayes, gassan Bayes, and decision trees. Through these various models I found that logistic regression performed the best out of the various models but also had a .05 drop from training to text score. Showing that the model is a bit overfit compared to the others. Trying out the other models demonstrated that depending on your data some models might perform better than others as I noticed other individuals in my class had better results with other further models. I would need to compare my logistic results to something like random forests to see if that could improve my accuracy score. I would find that this would be the perfect situation to implement cloud computing as the use of different parameters with pipe in gridsearch causes longer run times. 
-
-## Conclusion
-
-
